@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-form{
+    margin-top: 2rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.container-inputs {
+    width: 30vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
