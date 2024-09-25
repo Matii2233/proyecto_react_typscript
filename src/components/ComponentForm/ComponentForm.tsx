@@ -2,12 +2,7 @@ import "./formStyle.css"
 import { useForm } from "../hooks/useForm"
 
 export const ComponentForm = () => {
-
-    const {values, handleChange, resetForm} = useForm({email: '', nombre: '', edad: 0})
-
-    const handleSubmitForm = () => {
-        console.log(values)
-    }
+    const {values, handleChange,handleSubmitForm, resetForm} = useForm({email: '', nombre: '', edad: 0})
 
     return (
         <div>

@@ -17,9 +17,14 @@ export const useForm = <T extends FormValues>(initialValues: T) => {
         setValues(initialValues)
     }
 
+    const handleSubmitForm = () => {
+        console.log(values)
+    }
+
     return{
         values,
         handleChange,
-        resetForm
+        handleSubmitForm,
+        resetForm,
     }
 }
